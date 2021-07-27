@@ -1,0 +1,43 @@
+define({
+  root: ({
+    taskUrl: "Profile Task URL",
+    widgetWidth: "Widgets Width",
+    serviceURLPlaceholder: "Please input Profile task URL",
+    ok: "OK",
+    cancel: "Cancel",
+    setTask: "Set",
+    setTaskTitle: "Set Profile Task",
+    invalidURL: "Invalid Profile Task URL",
+    urlContainsProfile: "Task URL should not contain /Profile",
+    feet: "Feet",
+    metric: "Metric",
+    measureunits: "Measure Units",
+    chart: {
+      title: "Elevation Profile",
+      elevationTitleTemplate: "Elevation in {0}",
+      distanceTitleTemplate: "Distance in {0}",
+      chartTitleFontSize: "Chart Title Font Size",
+      axisTitleFontSize: "Axis Title Font Size",
+      axisLabelFontSize: "Axis Label Font Size",
+      indicatorFontColor: "Indicator Font Color",
+      indicatorFillColor: "Indicator Fill Color",
+      titleFontColor: "Chart Title Font Color",
+      axisFontColor: "Axis Font Color",
+      axisMajorTickColor: "Axis Major Tick Color",
+      skyTopColor: "Sky Top Color",
+      skyBottomColor: "Sky Bottom Color",
+      waterLineColor: "Water Line Color",
+      waterTopColor: "Water Top Color",
+      waterBottomColor: "Water Bottom Color",
+      elevationLineColor: "Elevation Line Color",
+      elevationTopColor: "Elevation Top Color",
+      elevationBottomColor: "Elevation Bottom Color",
+      constrain: "Constrain profile height to 320px",
+      constraintooltip: "Use this option when placing this widget in a panel and not in a onscreen widget."
+    },
+    editDefaultSym: "Edit Default Line Symbol",
+    editChartProperties: "Edit Chart Display Properties",
+    lineSymbol: "Line Symbol: ",
+    symbologyTooltip: "Click on the symbology symbol that you want to edit."
+  })
+});
